@@ -7,5 +7,5 @@ module Problem1 =
 //    Find the sum of all the multiples of 3 or 5 below 1000.
     
     //Answer 233168
-    let foo = new ProjectEuler.Aggregate()
-    let multiples = foo.multiplesOf(3, 5)
+    let aggregate = new ProjectEuler.Aggregate()
+    let multiples = aggregate.multiplesOf(3, 5)
